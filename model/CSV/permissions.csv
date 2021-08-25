@@ -1,7 +1,7 @@
-permissionID,permissions
-1,select_users
-2,insert_user
-3,update_user
-4,delete_user
-5,pick_role
-6,drop_table
+permissionID,name,roleID
+1,select_users,1
+2,insert_user,1
+3,update_user,1
+4,delete_user,1
+5,pick_role,1
+6,drop_table,1
