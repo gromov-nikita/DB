@@ -15,7 +15,6 @@ public class DBConnection {
             handler.setFormatter(new SimpleFormatter());
             log.addHandler(handler);
             log.setUseParentHandlers(false);
-
         } catch (IOException e) {
             log.log(Level.WARNING,"File logger not working");
         }
@@ -29,17 +28,21 @@ public class DBConnection {
         log.info(nameDB + " database. Created a statement.");
     }
 
-    public void pushQuery(String query) throws SQLException {
-        statement.executeUpdate(query);
-        log.info(nameDB + " database. Query: " + query);
+    public void insertUser(String login, String password, String firstname,
+                           String lastname, int roleID) throws SQLException {
+        statement.executeUpdate("INSERT INTO user SET login = '" + login + "', password = '" + password + "', firstname = '" + firstname + "', lastname = '" + lastname + "', roleID = " + roleID);
+        log.info(nameDB + " database. Query: INSERT INTO user SET login = '" + login
+                + "', password = '" + password + "', firstname = '"
+                + firstname + "', lastname = '" + lastname
+                + "', roleID = " + roleID);
     }
-    public ResultSet getQuery(String query) throws SQLException {
-        ResultSet res = statement.executeQuery(query);
-        log.info(nameDB + " database. Query: " + query);
+    public ResultSet getUsers() throws SQLException {
+        ResultSet res = statement.executeQuery("select * from user");
+        log.info(nameDB + " database. Query: select * from user");
         return res;
     }
     public void closeConnection() throws SQLException {
         connection.close();
-        log.info(nameDB + "database connection. Close. ");
+        log.info(nameDB + " database connection. Close. ");
     }
 }
