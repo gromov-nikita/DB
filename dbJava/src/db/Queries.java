@@ -4,9 +4,14 @@ import db.connection.DBConnection;
 import db.tables.IQuery;
 
 import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.logging.*;
 
 
@@ -33,8 +38,24 @@ public class Queries {
         logQ.info(connection.getNameDB() + "INSERT INTO  + query.getTableName() +  SET  + query.insert()");
         statement.executeUpdate("INSERT INTO " + query.getTableName() + " SET " + query.insert());
     }
-    public ResultSet selectAll(String tableName) throws SQLException {
-        logQ.info(connection.getNameDB() + " Select all from " + tableName );
-        return statement.executeQuery("SELECT * " + "FROM " + tableName);
+    public List selectAll(Class myClass) throws SQLException,
+            NoSuchMethodException, IllegalAccessException, InvocationTargetException,
+            InstantiationException, NoSuchFieldException {
+        logQ.info(connection.getNameDB() + " Select all from " +
+                myClass.getDeclaredField("tableName").get(new String()));
+        ResultSet res = statement.executeQuery("SELECT * " + "FROM " +
+                myClass.getDeclaredField("tableName").get(new String()));
+        List list = new LinkedList();
+        Field[] fields = myClass.getDeclaredFields();
+        Constructor constructor = myClass.getDeclaredConstructors()[0];
+        Object[] objects = new Object[fields.length-1];
+        while(res.next()) {
+            for (int i = 0; i < objects.length; i++) {
+                objects[i] = res.getObject(fields[i+1].getName());
+            }
+            list.add(constructor.newInstance(objects));
+
+        }
+        return list;
     }
 }

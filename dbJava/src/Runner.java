@@ -7,7 +7,9 @@ import db.tables.User;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
+import java.util.List;
 import java.util.Properties;
 
 public class Runner {
@@ -25,32 +27,28 @@ public class Runner {
 
 
             System.out.println("\n\nUSER\n\n");
-            User user1 = new User("hrom10","12345","Ники","Громи", 2);
+            User user1 = new User("h121111","12345","Нки","Грми", 2);
             queries.insert(user1);
-            ResultSet res = queries.selectAll("User");
-            while(res.next()) {
-                System.out.println(res.getString("login") + " "
-                        + res.getString("firstname") + " "
-                        + res.getString("UserID"));
+            List<User> res1 = queries.selectAll(User.class);
+            for(User x : res1) {
+                System.out.println(x.toString());
             }
 
 
             System.out.println("\n\nPERMISSIONS\n\n");
-            Permissions permissions1 = new Permissions("do smth3", 3);
+            Permissions permissions1 = new Permissions("do 555555", 3);
             queries.insert(permissions1);
-            res = queries.selectAll("permissions");
-            while(res.next()) {
-                System.out.println(res.getString("name") + " "
-                        + res.getString("roleID"));
+            List<Permissions> res2 = queries.selectAll(Permissions.class);
+            for(Permissions x : res2) {
+                System.out.println(x.toString());
             }
 
             System.out.println("\n\nROLE\n\n");
-            Role role1 = new Role("worker2");
+            Role role1 = new Role("w444444");
             queries.insert(role1);
-            res = queries.selectAll("role");
-            while(res.next()) {
-                System.out.println(res.getString("name") + " "
-                        + res.getString("roleID"));
+            List<Role> res3 = queries.selectAll(Role.class);
+            for(Role x : res3) {
+                System.out.println(x.toString());
             }
 
         }
@@ -61,8 +59,17 @@ public class Runner {
         catch (SQLException ex) {
             System.out.println("SqlException");
             ex.printStackTrace();
-        }
-        finally {
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } finally {
             if(reader != null) {
                 try {
                     reader.close();

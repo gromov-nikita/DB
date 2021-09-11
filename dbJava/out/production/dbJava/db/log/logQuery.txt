@@ -28,3 +28,149 @@ INFO: log database. Created a statement.
 INFO: log database. Created a statement.
 сент. 06, 2021 6:59:26 PM db.Queries <init>
 INFO: log database. Created a statement.
+сент. 06, 2021 7:08:14 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 06, 2021 7:08:14 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 06, 2021 7:08:14 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 06, 2021 7:08:15 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 06, 2021 7:08:15 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 06, 2021 7:08:15 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 06, 2021 7:08:15 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 06, 2021 7:44:42 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 06, 2021 7:44:42 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 06, 2021 7:44:42 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 06, 2021 7:44:43 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 06, 2021 7:44:43 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 06, 2021 7:44:43 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 06, 2021 7:44:44 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 11, 2021 5:32:36 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:32:36 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 11, 2021 5:38:52 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:38:52 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 11, 2021 5:40:02 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:40:02 PM db.Queries insert
+INFO: logINSERT INTO  + query.getTableName() +  SET  + query.insert()
+сент. 11, 2021 5:42:17 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:42:17 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 5:44:31 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:44:31 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 5:47:31 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:47:31 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 5:50:07 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:50:18 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 5:52:29 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:52:29 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 5:53:39 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:53:39 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 5:56:29 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 5:56:29 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 6:07:46 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 6:07:46 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 6:08:35 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 6:08:35 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 6:09:06 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 6:09:06 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 6:09:36 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 6:09:44 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 6:14:52 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 6:14:52 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 6:17:02 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 6:17:02 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:08:44 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:08:44 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:12:43 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:12:43 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:13:49 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:13:49 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:15:22 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:15:22 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:15:56 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:15:56 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:17:13 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:17:13 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 7:17:14 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 11, 2021 7:17:16 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 11, 2021 7:20:34 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:20:34 PM db.Queries selectAll
+INFO: log Select all from public java.lang.String db.tables.User.getTableName()
+сент. 11, 2021 7:21:32 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:21:32 PM db.Queries selectAll
+INFO: log Select all from public java.lang.String db.tables.User.getTableName()
+сент. 11, 2021 7:46:11 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 7:46:43 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 8:04:48 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 8:18:07 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 8:18:07 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 8:18:47 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 11, 2021 8:18:47 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 11, 2021 8:18:47 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 11, 2021 8:18:47 PM db.Queries selectAll
+INFO: log Select all from role
