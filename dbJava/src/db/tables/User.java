@@ -33,6 +33,18 @@ public class User implements IQuery {
     public String getTableName() {
         return tableName;
     }
+
+    public static String deleteByID() {
+        return "DELETE FROM " + tableName + " WHERE UserID=";
+    }
+
+    @Override
+    public String updateByID() {
+        return "UPDATE " + tableName + " SET login = '" + login + "', password = '" + password
+                + "', firstname = '" + firstname + "', lastname = '"
+                + lastname + "', roleID = " + roleID + " WHERE UserID=";
+    }
+
     @Override
     public String insert() {
         return "login = '" + login + "', password = '" + password

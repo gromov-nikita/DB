@@ -13,6 +13,16 @@ public class Role implements IQuery{
     public String getTableName() {
         return tableName;
     }
+
+    public static String deleteByID() {
+        return "DELETE FROM " + tableName + " WHERE roleID=";
+    }
+
+    @Override
+    public String updateByID() {
+        return "UPDATE " + tableName + " SET name = '" + name + "' WHERE roleID=";
+    }
+
     @Override
     public String insert() {
         return "name = '" + name + "'";

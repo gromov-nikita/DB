@@ -35,8 +35,19 @@ public class Queries {
         logQ.info(connection.getNameDB() + " database. Created a statement.");
     }
     public void insert(IQuery query) throws SQLException {
-        logQ.info(connection.getNameDB() + "INSERT INTO  + query.getTableName() +  SET  + query.insert()");
+        logQ.info(connection.getNameDB() + "INSERT INTO " + query.getTableName() + " SET " + query.insert());
         statement.executeUpdate("INSERT INTO " + query.getTableName() + " SET " + query.insert());
+    }
+    public void deleteByID(Class myClass, int id) throws NoSuchMethodException,
+            InvocationTargetException, IllegalAccessException, SQLException {
+        logQ.info(connection.getNameDB() +
+                (String)myClass.getDeclaredMethod("deleteByID").invoke(null) + id);
+        statement.executeUpdate((String)myClass.getDeclaredMethod("deleteByID").invoke(null) + id);
+    }
+    public void updateByID(IQuery query, int id) throws SQLException {
+        logQ.info(connection.getNameDB() +
+                query.updateByID() + id);
+        statement.executeUpdate(query.updateByID() + id);
     }
     public List selectAll(Class myClass) throws SQLException,
             NoSuchMethodException, IllegalAccessException, InvocationTargetException,

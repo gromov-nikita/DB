@@ -19,6 +19,16 @@ public class Permissions implements IQuery {
     public String getTableName() {
         return tableName;
     }
+
+    public static String deleteByID() {
+        return "DELETE FROM " + tableName + " WHERE permissionID=";
+    }
+
+    @Override
+    public String updateByID() {
+        return "UPDATE " + tableName + " SET name = '" + name + "', roleID = " + roleID + " WHERE permissionID=";
+    }
+
     @Override
     public String insert() {
         return "name = '" + name + "', roleID = " + roleID;
