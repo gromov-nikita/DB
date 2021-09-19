@@ -1,8 +1,6 @@
 package db;
-
 import db.connection.DBConnection;
-import db.tables.IQuery;
-
+import db.tables.IQueryTable;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -13,7 +11,6 @@ import java.sql.Statement;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.*;
-
 
 public class Queries {
     private DBConnection connection;
@@ -34,20 +31,22 @@ public class Queries {
         statement = connection.getConnection().createStatement();
         logQ.info(connection.getNameDB() + " database. Created a statement.");
     }
-    public void insert(IQuery query) throws SQLException {
-        logQ.info(connection.getNameDB() + "INSERT INTO " + query.getTableName() + " SET " + query.insert());
-        statement.executeUpdate("INSERT INTO " + query.getTableName() + " SET " + query.insert());
+    public void insert(IQueryTable query) throws SQLException {
+        logQ.info(connection.getNameDB() + "INSERT INTO " +
+                query.getTableName() + " SET " + query.getInsertStr());
+        statement.executeUpdate("INSERT INTO " + query.getTableName() + " SET " + query.getInsertStr());
     }
     public void deleteByID(Class myClass, int id) throws NoSuchMethodException,
             InvocationTargetException, IllegalAccessException, SQLException {
         logQ.info(connection.getNameDB() +
-                (String)myClass.getDeclaredMethod("deleteByID").invoke(null) + id);
-        statement.executeUpdate((String)myClass.getDeclaredMethod("deleteByID").invoke(null) + id);
+                (String)myClass.getDeclaredMethod("getDeleteByIDStr").invoke(null) + id);
+        statement.executeUpdate(
+                (String)myClass.getDeclaredMethod("getDeleteByIDStr").invoke(null) + id);
     }
-    public void updateByID(IQuery query, int id) throws SQLException {
+    public void updateByID(IQueryTable query, int id) throws SQLException {
         logQ.info(connection.getNameDB() +
-                query.updateByID() + id);
-        statement.executeUpdate(query.updateByID() + id);
+                query.getUpdateByIDStr() + id);
+        statement.executeUpdate(query.getUpdateByIDStr() + id);
     }
     public List selectAll(Class myClass) throws SQLException,
             NoSuchMethodException, IllegalAccessException, InvocationTargetException,

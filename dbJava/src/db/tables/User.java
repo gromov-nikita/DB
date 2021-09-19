@@ -1,21 +1,19 @@
 package db.tables;
 
-public class User implements IQuery {
+public class User implements IQueryTable {
     public static final String tableName = "User";
-    private String login;
+    private String username;
     private String password;
     private String firstname;
     private String lastname;
-    private int roleID;
-    public User(String login, String password, String firstName, String lastName, int roleID) {
-        this.login = login;
+    public User(String username, String password, String firstName, String lastName) {
+        this.username = username;
         this.password = password;
         this.firstname = firstName;
         this.lastname = lastName;
-        this.roleID = roleID;
     }
     public String getLogin() {
-        return login;
+        return username;
     }
     public String getPassword() {
         return password;
@@ -26,40 +24,36 @@ public class User implements IQuery {
     public String getLastName() {
         return lastname;
     }
-    public int getRoleID() {
-        return roleID;
-    }
     @Override
     public String getTableName() {
         return tableName;
     }
 
-    public static String deleteByID() {
+    public static String getDeleteByIDStr() {
         return "DELETE FROM " + tableName + " WHERE UserID=";
     }
 
     @Override
-    public String updateByID() {
-        return "UPDATE " + tableName + " SET login = '" + login + "', password = '" + password
+    public String getUpdateByIDStr() {
+        return "UPDATE " + tableName + " SET username = '" + username + "', password = '" + password
                 + "', firstname = '" + firstname + "', lastname = '"
-                + lastname + "', roleID = " + roleID + " WHERE UserID=";
+                + lastname + "' WHERE UserID=";
     }
 
     @Override
-    public String insert() {
-        return "login = '" + login + "', password = '" + password
+    public String getInsertStr() {
+        return "username = '" + username + "', password = '" + password
                 + "', firstname = '" + firstname + "', lastname = '"
-                + lastname + "', roleID = " + roleID;
+                + lastname + "'";
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "login='" + login + '\'' +
+                "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", roleID=" + roleID +
+                ", lastname='" + lastname +
                 '}';
     }
 }
