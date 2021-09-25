@@ -298,3 +298,239 @@ INFO: log Select all from permissions
 INFO: logUPDATE role SET name = 'up' WHERE roleID=11
 сент. 19, 2021 3:44:10 PM db.Queries selectAll
 INFO: log Select all from role
+сент. 19, 2021 3:44:30 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 19, 2021 3:44:30 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8', password = '12345', firstname = 'update', lastname = 'update' WHERE UserID=5
+сент. 19, 2021 3:44:30 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 19, 2021 3:44:30 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE permissionID=1
+сент. 19, 2021 3:44:30 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 19, 2021 3:44:30 PM db.Queries updateByID
+INFO: logUPDATE role SET name = 'up' WHERE roleID=11
+сент. 19, 2021 3:44:30 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 8:44:13 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 8:44:13 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8', password = '12345', firstname = 'update', lastname = 'update' WHERE UserID=5
+сент. 25, 2021 8:44:14 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 8:44:14 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE permissionID=1
+сент. 25, 2021 8:44:14 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 8:44:14 PM db.Queries updateByID
+INFO: logUPDATE role SET name = 'up' WHERE roleID=11
+сент. 25, 2021 8:44:15 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 9:03:58 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:05:22 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:07:33 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:13:52 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:17:49 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:17:50 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8', password = '12345', firstname = 'update', lastname = 'update' WHERE UserID=5
+сент. 25, 2021 9:17:50 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 9:17:50 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE permissionID=1
+сент. 25, 2021 9:17:50 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 9:17:50 PM db.Queries updateByID
+INFO: logUPDATE role SET name = 'up' WHERE roleID=11
+сент. 25, 2021 9:17:50 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 9:33:18 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:33:18 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8', password = '12345', firstname = 'update', lastname = 'update' WHERE UserID=5
+сент. 25, 2021 9:33:18 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 9:33:18 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE permissionID=1
+сент. 25, 2021 9:33:18 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 9:33:18 PM db.Queries updateByID
+INFO: logUPDATE role SET name = 'up' WHERE roleID=11
+сент. 25, 2021 9:33:18 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 9:33:34 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:33:34 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8', password = '12345', firstname = 'update', lastname = 'update' WHERE UserID=5
+сент. 25, 2021 9:33:34 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 9:33:34 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE permissionID=1
+сент. 25, 2021 9:33:34 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 9:33:34 PM db.Queries updateByID
+INFO: logUPDATE role SET name = 'up' WHERE roleID=11
+сент. 25, 2021 9:33:34 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 9:35:12 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 9:35:12 PM db.Queries updateByID
+INFO: logUPDATE User SET tableName = 'User',username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 9:44:34 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:02:06 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:02:06 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:05:05 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:05:05 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:06:49 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:06:50 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:06:50 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 10:38:47 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:38:47 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:38:47 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 10:39:18 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:39:18 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:39:18 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 10:39:53 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:39:53 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:39:53 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 10:40:13 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 10:40:13 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update8',password = '12345',firstname = 'update',lastname = 'update' WHERE UserID= 5
+сент. 25, 2021 10:40:13 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 10:40:13 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE UserID= 1
+сент. 25, 2021 11:29:06 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:29:07 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:29:07 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE 1 1
+сент. 25, 2021 11:29:33 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:29:33 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:29:33 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE 1 1
+сент. 25, 2021 11:30:03 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:30:03 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:30:03 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE ID = 1 1
+сент. 25, 2021 11:34:56 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:34:56 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:34:56 PM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update22345' WHERE ID = 1 1
+сент. 25, 2021 11:37:27 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:37:27 PM db.Queries insert
+INFO: logINSERT INTO User SET username = '1',password = '12345',firstname = '1',lastname = '1'
+сент. 25, 2021 11:37:27 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:37:27 PM db.Queries insert
+INFO: logINSERT INTO permissions SET name = '1'
+сент. 25, 2021 11:37:28 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 11:37:28 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 11:38:02 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:38:02 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:38:03 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 11:38:03 PM db.Queries insert
+INFO: logINSERT INTO role SET name = '1'
+сент. 25, 2021 11:38:03 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 11:38:50 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:38:50 PM db.Queries insert
+INFO: logINSERT INTO User SET username = '2',password = '12345',firstname = '2',lastname = '2'
+сент. 25, 2021 11:38:50 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:38:50 PM db.Queries insert
+INFO: logINSERT INTO permissions SET name = '2'
+сент. 25, 2021 11:38:50 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 11:38:50 PM db.Queries insert
+INFO: logINSERT INTO role SET name = '2'
+сент. 25, 2021 11:38:50 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 11:39:08 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:39:08 PM db.Queries insert
+INFO: logINSERT INTO User SET username = '3',password = '12345',firstname = '3',lastname = '3'
+сент. 25, 2021 11:39:08 PM db.Queries selectAll
+INFO: log Select all from User
+сент. 25, 2021 11:39:08 PM db.Queries insert
+INFO: logINSERT INTO permissions SET name = '3'
+сент. 25, 2021 11:39:09 PM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 25, 2021 11:39:09 PM db.Queries insert
+INFO: logINSERT INTO role SET name = '3'
+сент. 25, 2021 11:39:09 PM db.Queries selectAll
+INFO: log Select all from role
+сент. 25, 2021 11:43:54 PM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 25, 2021 11:43:54 PM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update',password = '12345',firstname = 'update',lastname = 'update' WHERE ID = 2 2
+сент. 26, 2021 12:08:39 AM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 26, 2021 12:08:39 AM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update', password = '12345', firstname = 'update', lastname = 'update' WHERE ID = 2 2
+сент. 26, 2021 12:20:07 AM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 26, 2021 12:20:07 AM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update', password = '12345', firstname = 'update', lastname = 'update' WHERE ID = 2 2
+сент. 26, 2021 12:20:08 AM db.Queries selectAll
+INFO: log Select all from User
+сент. 26, 2021 12:20:08 AM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update' WHERE ID = 2 2
+сент. 26, 2021 12:20:09 AM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 26, 2021 12:20:09 AM db.Queries updateByID
+INFO: logUPDATE role SET name = 'update' WHERE ID = 5 5
+сент. 26, 2021 12:20:09 AM db.Queries selectAll
+INFO: log Select all from role
+сент. 26, 2021 12:20:21 AM db.Queries <init>
+INFO: log database. Created a statement.
+сент. 26, 2021 12:20:22 AM db.Queries updateByID
+INFO: logUPDATE User SET username = 'update', password = '12345', firstname = 'update', lastname = 'update' WHERE ID = 2
+сент. 26, 2021 12:20:22 AM db.Queries selectAll
+INFO: log Select all from User
+сент. 26, 2021 12:20:22 AM db.Queries updateByID
+INFO: logUPDATE permissions SET name = 'update' WHERE ID = 2
+сент. 26, 2021 12:20:22 AM db.Queries selectAll
+INFO: log Select all from permissions
+сент. 26, 2021 12:20:22 AM db.Queries updateByID
+INFO: logUPDATE role SET name = 'update' WHERE ID = 5
+сент. 26, 2021 12:20:22 AM db.Queries selectAll
+INFO: log Select all from role
+сент. 26, 2021 12:23:12 AM db.Queries <init>
+INFO: log database. Created a statement.

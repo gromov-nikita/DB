@@ -126,3 +126,127 @@ INFO: log database connection. Close.
 INFO: log database. Created a connection.
 сент. 19, 2021 3:44:11 PM db.connection.DBConnection closeConnection
 INFO: log database connection. Close. 
+сент. 19, 2021 3:44:30 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 19, 2021 3:44:30 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 8:44:13 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 8:44:15 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:03:58 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:03:58 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:05:22 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:05:22 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:07:33 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:07:33 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:13:52 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:13:52 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:17:49 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:17:50 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:33:17 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:33:18 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:33:34 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:33:34 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:35:12 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:35:12 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 9:44:34 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 9:44:34 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:02:05 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:02:06 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:05:05 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:05:05 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:06:49 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:06:50 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:38:47 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:38:47 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:39:18 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:39:19 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:39:53 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:39:53 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 10:40:13 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 10:40:13 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:29:06 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:29:07 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:29:33 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:29:33 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:30:03 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:30:03 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:34:56 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:34:56 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:37:27 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:37:28 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:38:02 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:38:03 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:38:50 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:38:50 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:39:08 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:39:09 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 25, 2021 11:43:54 PM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 25, 2021 11:43:54 PM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 26, 2021 12:08:39 AM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 26, 2021 12:08:39 AM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 26, 2021 12:20:07 AM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 26, 2021 12:20:09 AM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 26, 2021 12:20:21 AM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 26, 2021 12:20:22 AM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 
+сент. 26, 2021 12:23:12 AM db.connection.DBConnection <init>
+INFO: log database. Created a connection.
+сент. 26, 2021 12:23:12 AM db.connection.DBConnection closeConnection
+INFO: log database connection. Close. 

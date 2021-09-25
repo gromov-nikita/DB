@@ -1,7 +1,6 @@
 package db.tables;
 
 public class Role implements IQueryTable {
-    public static final String tableName = "role";
     private String name;
     public Role(String name) {
         this.name = name;
@@ -9,25 +8,9 @@ public class Role implements IQueryTable {
     public String getName() {
         return name;
     }
-    @Override
-    public String getTableName() {
-        return tableName;
+    public static String getTableName() {
+        return "role";
     }
-
-    public static String getDeleteByIDStr() {
-        return "DELETE FROM " + tableName + " WHERE roleID=";
-    }
-
-    @Override
-    public String getUpdateByIDStr() {
-        return "UPDATE " + tableName + " SET name = '" + name + "' WHERE roleID=";
-    }
-
-    @Override
-    public String getInsertStr() {
-        return "name = '" + name + "'";
-    }
-
     @Override
     public String toString() {
         return "Role{" +

@@ -1,7 +1,6 @@
 package db.tables;
 
 public class User implements IQueryTable {
-    public static final String tableName = "User";
     private String username;
     private String password;
     private String firstname;
@@ -24,27 +23,8 @@ public class User implements IQueryTable {
     public String getLastName() {
         return lastname;
     }
-    @Override
-    public String getTableName() {
-        return tableName;
-    }
-
-    public static String getDeleteByIDStr() {
-        return "DELETE FROM " + tableName + " WHERE UserID=";
-    }
-
-    @Override
-    public String getUpdateByIDStr() {
-        return "UPDATE " + tableName + " SET username = '" + username + "', password = '" + password
-                + "', firstname = '" + firstname + "', lastname = '"
-                + lastname + "' WHERE UserID=";
-    }
-
-    @Override
-    public String getInsertStr() {
-        return "username = '" + username + "', password = '" + password
-                + "', firstname = '" + firstname + "', lastname = '"
-                + lastname + "'";
+    public static String getTableName() {
+        return "User";
     }
 
     @Override
