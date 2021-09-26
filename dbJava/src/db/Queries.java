@@ -1,6 +1,8 @@
 package db;
 import db.connection.DBConnection;
 import db.tables.IQueryTable;
+
+import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -10,6 +12,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Properties;
 import java.util.logging.*;
 
 public class Queries {
@@ -18,7 +21,9 @@ public class Queries {
     private static Logger logQ = Logger.getLogger(Queries.class.getName());
     static {
         try {
-            Handler handler = new FileHandler("src/db/log/logQuery.txt",true);
+            Properties properties = new Properties();
+            properties.load(new FileReader("src/db/log/logInf.properties"));
+            Handler handler = new FileHandler(properties.getProperty("logQuery"), true);
             handler.setFormatter(new SimpleFormatter());
             logQ.addHandler(handler);
             logQ.setUseParentHandlers(false);

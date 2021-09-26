@@ -1,7 +1,9 @@
 package db.connection;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
+import java.util.Properties;
 import  java.util.logging.*;
 public class DBConnection {
     private static Logger log = Logger.getLogger(DBConnection.class.getName());
@@ -9,7 +11,9 @@ public class DBConnection {
     private String nameDB;
     static {
         try {
-            Handler handler = new FileHandler("src/db/log/log.txt",true);
+            Properties properties = new Properties();
+            properties.load(new FileReader("src/db/log/logInf.properties"));
+            Handler handler = new FileHandler(properties.getProperty("log"),true);
             handler.setFormatter(new SimpleFormatter());
             log.addHandler(handler);
             log.setUseParentHandlers(false);

@@ -27,9 +27,9 @@ public class Runner {
 
 
             System.out.println("\n\nUSER\n\n");
-            User user1 = new User("update","12345","update","update");
-            //queries.insert(user1);
-            queries.deleteByID(User.class,3);
+            User user1 = new User("i2","12345","i2","i2");
+            queries.insert(user1);
+            //queries.deleteByID(User.class,3);
             //queries.updateByID(user1, 2);
             List<User> res1 = queries.selectAll(User.class);
             for(User x : res1) {
@@ -38,9 +38,9 @@ public class Runner {
 
 
             System.out.println("\n\nPERMISSIONS\n\n");
-            Permissions permissions1 = new Permissions("update");
-            //queries.insert(permissions1);
-            queries.deleteByID(Permissions.class,3);
+            Permissions permissions1 = new Permissions("i2");
+            queries.insert(permissions1);
+            //queries.deleteByID(Permissions.class,3);
             //queries.updateByID(permissions1, 2);
             List<Permissions> res2 = queries.selectAll(Permissions.class);
             for(Permissions x : res2) {
@@ -48,9 +48,9 @@ public class Runner {
             }
 
             System.out.println("\n\nROLE\n\n");
-            Role role1 = new Role("update");
-            //queries.insert(role1);
-            queries.deleteByID(Role.class,6);
+            Role role1 = new Role("i2");
+            queries.insert(role1);
+            //queries.deleteByID(Role.class,6);
             //queries.updateByID(role1,5);
             List<Role> res3 = queries.selectAll(Role.class);
             for(Role x : res3) {
