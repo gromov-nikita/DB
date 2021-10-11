@@ -16,13 +16,13 @@ public class Queries {
     private DBConnection connection;
     private Statement statement;
     private static Logger logQ = Logger.getLogger(Queries.class.getName());
-
     public Queries(DBConnection connection) throws SQLException {
         this.connection = connection;
         statement = connection.getConnection().createStatement();
         logQ.info(connection.getNameDB() + " database. Created a statement.");
     }
-    public void insert(Object query) throws SQLException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    public void insert(Object query) throws SQLException, NoSuchMethodException,
+            InvocationTargetException, IllegalAccessException {
         StringBuffer str = new StringBuffer("INSERT INTO " +
                 query.getClass().getDeclaredMethod("getTableName").invoke(query) + " SET ");
         stringMaker(str,query);
@@ -39,8 +39,7 @@ public class Queries {
                 "DELETE FROM " + myClass.getDeclaredMethod("getTableName").invoke(null) +
                         " WHERE ID= " + id);
     }
-    public void updateByID(Object query, int id) throws SQLException, NoSuchFieldException,
-            IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchMethodException {
+    public void updateByID(Object query, int id) throws SQLException, IllegalAccessException, InvocationTargetException, NoSuchMethodException {
         StringBuffer str = new StringBuffer("UPDATE " +
                 query.getClass().getDeclaredMethod("getTableName").invoke(query) + " SET ");
         stringMaker(str,query);

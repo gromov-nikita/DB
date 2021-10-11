@@ -1,6 +1,7 @@
 
 import db.Queries;
 import db.connection.DBConnection;
+import db.tableHandler.TableQueryStringMaker;
 import db.tables.Permissions;
 import db.tables.Role;
 import db.tables.User;
