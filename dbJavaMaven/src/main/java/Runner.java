@@ -28,32 +28,33 @@ public class Runner {
 
 
             System.out.println("\n\nUSER\n\n");
-            User user1 = new User("n5443543","12345","n4","n4");
-            queries.insert(user1);
-            //queries.deleteByID(User.class,3);
-            //queries.updateByID(user1, 2);
-            List<User> res1 = queries.selectAll(User.class);
+            User user1 = new User("MyNewGrom12","12345","n4","n4");
+            //queries.push(TableQueryStringMaker.insertString(user1));
+            //queries.push(TableQueryStringMaker.deleteByIDString(User.class,15));
+            //queries.push(TableQueryStringMaker.updateByIDString(user1, 17));
+            List<User> res1 = queries.pull(TableQueryStringMaker.selectAllString(User.class),User.class);
             for(User x : res1) {
                 System.out.println(x.toString());
             }
 
 
             System.out.println("\n\nPERMISSIONS\n\n");
-            Permissions permissions1 = new Permissions("n5445343");
-            queries.insert(permissions1);
-            //queries.deleteByID(Permissions.class,3);
-            //queries.updateByID(permissions1, 2);
-            List<Permissions> res2 = queries.selectAll(Permissions.class);
+            Permissions permissions1 = new Permissions("MyNewGrom2");
+            //queries.push(TableQueryStringMaker.insertString(permissions1));
+            //queries.push(TableQueryStringMaker.deleteByIDString(Permissions.class,5));
+            //queries.push(TableQueryStringMaker.updateByIDString(permissions1, 8));
+            List<Permissions> res2 = queries.pull(TableQueryStringMaker.selectAllString(Permissions.class),
+                    Permissions.class);
             for(Permissions x : res2) {
                 System.out.println(x.toString());
             }
 
             System.out.println("\n\nROLE\n\n");
-            Role role1 = new Role("n4545665");
-            queries.insert(role1);
-            //queries.deleteByID(Role.class,6);
-            //queries.updateByID(role1,5);
-            List<Role> res3 = queries.selectAll(Role.class);
+            Role role1 = new Role("MyNewGrom6");
+            //queries.push(TableQueryStringMaker.insertString(role1));
+            //queries.push(TableQueryStringMaker.deleteByIDString(Role.class,7));
+            //queries.push(TableQueryStringMaker.updateByIDString(role1,8));
+            List<Role> res3 = queries.pull(TableQueryStringMaker.selectAllString(Role.class),Role.class);
             for(Role x : res3) {
                 System.out.println(x.toString());
             }
@@ -74,9 +75,8 @@ public class Runner {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-        } finally {
+        }
+        finally {
             if(reader != null) {
                 try {
                     reader.close();
